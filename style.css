@@ -1,0 +1,20 @@
+.main-head {
+  color: white;
+  background-color: black;
+  padding: 21px;
+  text-align: center;
+  font-size: 100px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  right: 0;
+  left: 0;
+}
+
+.bars {
+  width: 100%;
+  background-color: black;
+  height: 30px;
+  position: fixed;
+
+  bottom: 0;
+}
