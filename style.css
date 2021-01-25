@@ -18,3 +18,15 @@
 
   bottom: 0;
 }
+
+/* img {
+  margin-right: 25%;
+  margin-left: 25%;
+  height: 300px;
+  width: auto;
+} */
+
+.carousel > .carousel-item > img {
+  width: auto;
+  height: 350px;
+}
