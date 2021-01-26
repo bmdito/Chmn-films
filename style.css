@@ -4,17 +4,41 @@
   padding: 21px;
   text-align: center;
   font-size: 100px;
-  margin-top: 20px;
-  margin-bottom: 25px;
+  /* margin-top: 20px; */
+  margin-bottom: 15px;
   right: 0;
   left: 0;
+}
+
+.nav-item {
+  font-size: 18px;
+}
+.splash-text {
+  font-family: "Caveat", cursive;
+  font-size: 20px;
+  margin-right: 5%;
+  margin-left: 5%;
+  font-style: italic;
+}
+
+.splash {
+  /* margin-bottom: 200px; */
+  margin-bottom: 60px;
+}
+
+.splash img {
+  width: 90%;
+  height: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .bars {
   width: 100%;
   background-color: black;
-  height: 30px;
-  position: fixed;
+  height: 135px;
+  /* position: fixed; */
 
   bottom: 0;
 }
@@ -26,7 +50,44 @@
   width: auto;
 } */
 
-.carousel > .carousel-item > img {
+/* .carousel > .carousel-item > img {
   width: auto;
   height: 350px;
+} */
+
+.carousel {
+  margin-top: 15px;
+}
+
+.gItem {
+  margin-right: auto;
+  margin-left: auto;
+  margin: 20px;
+}
+
+.gItem img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: 200px;
+  width: auto;
+}
+
+.nav-item {
+  color: blue;
+  margin-right: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-head {
+    color: white;
+    background-color: black;
+    padding: 21px;
+    text-align: center;
+    font-size: 60px;
+    /* margin-top: 20px; */
+    margin-bottom: 25px;
+    right: 0;
+    left: 0;
+  }
 }
